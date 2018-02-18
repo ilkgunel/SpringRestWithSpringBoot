@@ -29,4 +29,8 @@ public class Member {
 		this.city = city;
 	}
 
+	@Override
+	public String toString() {
+		return getName() + " " + getSurname() + " " + getCity();
+	}
 }
